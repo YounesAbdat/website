@@ -4,13 +4,13 @@ import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 
 
-import bilad from "../../photos/bilad.png"
-import almaali from "../../photos/almaali.png"
-import bilikair from "../../photos/bilikair.jpg"
-import cse from "../../photos/cse.png"
-import djezzy from "../../photos/djezzy.png"
-import gdg from "../../photos/gdg.png"
-import nbq from "../../photos/nbq.png"
+import bilad from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385182/ykc5nhbpq3jbyjr6unp3.png"
+import almaali from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385182/yw1wqlafoigpm1foim8u.png"
+import bilikair from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385182/y9nyccgmc16upfqs1yv8.jpg"
+import cse from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385182/v2rdolnkbuacmg4djn4d.png"
+import djezzy from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385183/kuw9b3yahf6ltc2odq9f.png"
+import gdg from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385182/bg0k0rxpw90voydwkk4f.png"
+import nbq from "https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385182/grdmiesyiuwmkj5l375y.png"
 import { Lamp } from 'lucide-react';
 
 

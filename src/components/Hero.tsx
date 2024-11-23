@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { Mic, Video, Play } from 'lucide-react';
 
 const toolIcons = [
-  { name: 'Premiere Pro', src: '/icons/premierepro.svg' },
-  { name: 'After Effects', src: '/icons/aftereffect.svg' },
-  { name: 'Audition', src: '/icons/audition.svg' },
+  { name: 'Premiere Pro', src: 'https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385395/tcmrakfeykxbpwn8zavs.svg' },
+  { name: 'After Effects', src: 'https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385394/kjhnzukgjhg2zw3zaro4.svg' },
+  { name: 'Audition', src: 'https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385395/zj17nmjrrh4w19ogobg8.svg' },
  
 
 ];

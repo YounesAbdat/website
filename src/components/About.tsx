@@ -25,7 +25,7 @@ export default function About() {
             transition={{ delay: 0.2, duration: 0.8 }}
           >
             <img
-              src="../../photos/younes.jpeg"
+              src="https://res.cloudinary.com/dh2n9wz7a/image/upload/v1732385183/oxp97rszjtvume9qpsib.jpg"
               alt="Professional headshot"
               className="rounded-lg shadow-2xl w-full h-[600px] object-cover"
             />
