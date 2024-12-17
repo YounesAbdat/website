@@ -10,6 +10,7 @@ import cse from "../../photos/cse.png";
 import djezzy from "../../photos/djezzy.png";
 import gdg from "../../photos/gdg.png";
 import nbq from "../../photos/nbq.png";
+import mass from "../../photos/mbway.svg";
 
 const companies = [
   { logo: bilad },
@@ -18,7 +19,8 @@ const companies = [
   { logo: cse },
   { logo: djezzy },
   { logo: gdg },
-  { logo: nbq }
+  { logo: nbq },
+  { logo: mass }
 ];
 
 export default function Collaborations() {
@@ -31,7 +33,7 @@ export default function Collaborations() {
         <Swiper
           modules={[Autoplay]}
           autoplay={{
-            delay: 0, // Continuous effect
+            delay: 0, // No delay, continuous effect
             disableOnInteraction: false,
             pauseOnMouseEnter: false,
           }}
@@ -40,9 +42,10 @@ export default function Collaborations() {
           spaceBetween={30} // Space between slides
           loop={true} // Infinite loop
           allowTouchMove={false} // Disable manual swiping
+          centeredSlides={true} // Center slides for a seamless effect
           className="swiper-container"
         >
-          {companies.map((company, index) => (
+          {companies.concat(companies).map((company, index) => (
             <SwiperSlide key={index}>
               <div className="aspect-square bg-white/5 rounded-lg overflow-hidden">
                 <img
