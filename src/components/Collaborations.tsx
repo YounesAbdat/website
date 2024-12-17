@@ -35,7 +35,7 @@ export default function Collaborations() {
             disableOnInteraction: false,
             pauseOnMouseEnter: false,
           }}
-          speed={3000} // Smooth scrolling speed
+          speed={6000} // Smooth scrolling speed
           slidesPerView={4} // Number of visible slides
           spaceBetween={30} // Space between slides
           loop={true} // Infinite loop

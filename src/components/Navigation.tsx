@@ -51,9 +51,11 @@ export default function Navigation() {
             animate={{ opacity: 1, x: 0 }}
             className="text-white font-bold text-xl nav-font"
           >
+
+            
             Portfolio
           </motion.div>
-
+          
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-6">
@@ -91,7 +93,7 @@ export default function Navigation() {
           </motion.button>
         </div>
       </div>
-
+    
       {/* Mobile Navigation */}
       <AnimatePresence>
         {isOpen && (

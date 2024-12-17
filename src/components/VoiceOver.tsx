@@ -12,7 +12,7 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Who I'm I? | من أكون؟",
+    title: "Who am I? | من أكون؟",
     description: "Introductory Recording for My Voice Services – Younes Voice",
     audioUrl: "https://res.cloudinary.com/dh2n9wz7a/video/upload/v1732379764/jfaqqsd1a1wd2vocabxl.mp3",
     category: "Descriptive",
